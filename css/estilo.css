@@ -1,0 +1,357 @@
+/* COLORES */
+/* FUENTES */
+/* ANIMACIONES */
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@200;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+/* BODY */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #121266;
+  background-image: url(../img/tactics.svg);
+  grid-area: body;
+}
+
+/* ASIDE */
+aside {
+  margin: 20px;
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "antonio", sans-serif;
+  animation-name: texto;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-delay: 1s;
+}
+
+h2 {
+  font-size: 40px;
+  color: #f0f03e;
+  font-weight: bold;
+  text-align: center;
+  font-family: "antonio", sans-serif;
+}
+
+h3 {
+  color: white;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 30px;
+}
+
+h5 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "antonio", sans-serif;
+}
+
+a {
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tituloHoja {
+  background-color: #f0f03e;
+  color: #121266;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px;
+  margin-top: none;
+}
+
+.tituloSomos {
+  text-align: center;
+  margin: 20px;
+}
+
+.equipoLogo {
+  height: 30px;
+  align-self: center;
+}
+
+.equipoMuestra {
+  height: 80px;
+  align-self: center;
+}
+
+/* MIXIN */
+/* FUENTE */
+/* NAV */
+.fuentesNav {
+  color: #ffffff;
+  font-size: 1, 5rem;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+
+.fuentesNav a:hover {
+  background-color: #f0f03e;
+  color: #121266;
+}
+
+/* HEADER */
+header {
+  color: #ffffff;
+}
+
+.ligaLogo {
+  width: 100px;
+}
+
+/* CAROUSEL */
+.carouselExample {
+  margin-bottom: 0px;
+}
+
+.navbar-toggler img {
+  width: 45px;
+  height: 40px;
+}
+
+.estilo-boton {
+  border: solid 2px #ffffff;
+}
+.estilo-boton:hover {
+  box-shadow: 0 0 5px #f0f03e;
+}
+
+/* CARDS */
+/* Galeria de Noticias */
+.tituloHoja {
+  background-color: #f0f03e;
+  color: #121266;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px;
+  margin-top: none;
+}
+
+.row {
+  margin: auto;
+  padding: auto;
+}
+.row p,
+.row h5 {
+  color: #ffffff;
+  text-align: center;
+}
+.row .col .card p {
+  text-align: left;
+  margin: auto;
+}
+
+.card-text {
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #121266;
+  border: none;
+}
+
+.text-body-secondary {
+  color: #ffffff;
+}
+
+.mapa-contenedor {
+  position: relative;
+  padding-bottom: 100%;
+  height: 0;
+  overflow: hidden;
+}
+
+.mapa-contenedor iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* TABLAS */
+.container {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 15px;
+}
+
+.container-fluid {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 15px;
+}
+
+.tituloTabla {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "antonio", sans-serif;
+}
+
+/* FORMULARIO */
+label {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form ul li label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form ul li textarea {
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #f0f03e;
+}
+
+input {
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #f0f03e;
+}
+
+/* INSCRIPCIONES */
+.boton-inscripcion {
+  background-color: #f0f03e;
+  border-color: #ffffff;
+  color: #121266;
+}
+
+.formInscripciones {
+  margin: 30px;
+  color: #ffffff;
+  border-color: #f0f03e;
+  box-shadow: #f0f03e;
+}
+
+.formulario {
+  color: #f0f03e;
+  font-weight: bolder;
+  background-color: #f0f03e;
+  text-align: center;
+  text-shadow: #f0f03e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-display: center;
+}
+
+label {
+  font-size: 1rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-display: center;
+  display: flex;
+}
+
+.boton-inscripcion:hover {
+  background-color: #121266;
+  color: #f0f03e;
+  border-color: #ffffff;
+}
+
+/* FOOTER */
+footer {
+  background-image: linear-gradient(to bottom, #121266, black, black);
+  grid-area: footer;
+  height: 300px;
+  padding-top: 120px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  border: 10px;
+}
+
+.footerMagic {
+  text-align: center;
+  position: fixed bottom;
+}
+
+.socialMedia {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.derechosReservados {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: lighter;
+  text-align: center;
+  font-family: "antonio", sans-serif;
+}
+
+.ligaDelos {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "antonio", sans-serif;
+  text-align: center;
+}
+
+/* INSTALACIONES */
+.googleMaps {
+  margin: 10px;
+  padding: 10px;
+  height: 70%;
+}
+
+.textoInstalaciones {
+  text-align: left;
+}
+
+/* QUIENES SOMOS */
+.youTube {
+  margin: 10px;
+  padding: 10px;
+  height: 70%;
+}
+
+.mapa-responsive,
+.imagen-responsive {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.centrarElemento {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: block;
+}
+
+.quienesSomos {
+  margin: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #121266;
+  text-align: center;
+}
+
+/*# sourceMappingURL=estilo.css.map */

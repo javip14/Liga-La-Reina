@@ -1,0 +1,37 @@
+/* FOOTER */
+
+footer {
+    background-image: linear-gradient(to bottom, $azul, black, black);
+    grid-area: footer;
+    height: 300px;
+    padding-top: 120px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    border: 10px;
+}
+
+.footerMagic {
+    text-align: center;
+    position: fixed bottom;
+}
+
+.socialMedia {
+    @include marginSocial;
+}
+
+.derechosReservados {
+    color: $blanco;
+    font-size: 1rem;
+    font-weight: lighter;
+    text-align: center;
+    font-family: $antonio;
+}
+
+.ligaDelos {
+    color: $blanco;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: $antonio;
+    text-align: center;
+}

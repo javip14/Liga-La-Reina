@@ -1,0 +1,21 @@
+/* COLORES */
+
+$azul: #121266;
+$amarillo: #f0f03e;
+$blanco: #ffffff;
+$negro: #000000;
+
+/* FUENTES */
+$antonio: "antonio", sans-serif;
+$bebas: "Bebas Neue", sans-serif;
+
+/* ANIMACIONES */
+@keyframes texto {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}

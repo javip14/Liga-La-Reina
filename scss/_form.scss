@@ -1,0 +1,59 @@
+/* FORMULARIO */
+
+label {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form ul li {
+    label {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    textarea {
+        @include formFormat;
+    }
+}
+
+input {
+    @include formFormat;
+}
+
+
+/* INSCRIPCIONES */
+.boton-inscripcion {
+    background-color: $amarillo;
+    border-color: $blanco;
+    color: $azul;
+}
+
+.formInscripciones {
+    margin: 30px;
+    color: $blanco;
+    border-color: $amarillo;
+    box-shadow: $amarillo;
+}
+
+.formulario {
+    color: $amarillo;
+    font-weight: bolder;
+    background-color: $amarillo;
+    text-align: center;
+    text-shadow: $amarillo;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-display: center;
+}
+
+label {
+    font-size: 1rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-display: center;
+    display: flex;
+}
+
+.boton-inscripcion:hover {
+    background-color: $azul;
+    color: $amarillo;
+    border-color: $blanco;
+}
