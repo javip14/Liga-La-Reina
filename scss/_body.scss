@@ -79,8 +79,15 @@ p {
 }
 
 .equipoLogo {
-    height: 30px;
-    align-self: center;
+    height: 40px;
+    max-height: 100%;
+    /* Establece la altura máxima como el 100% de la altura de la celda */
+    width: auto;
+    /* Ajusta automáticamente el ancho para mantener la proporción */
+    display: block;
+    /* Asegura que la imagen se comporte como un bloque */
+    margin: auto;
+    /* Centra la imagen dentro de la celda */
 }
 
 .equipoMuestra {

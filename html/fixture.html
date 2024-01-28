@@ -12,14 +12,15 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="../css/estilo.css">
-    <link rel="shortcut icon" href="../img/LOGO 23.png">
+    <link rel="shortcut icon" href="../img/LOGO 23.svg">
 </head>
 
 <body>
+    <!-- HEADER CON BOOTSTRAP -->
     <header class="navbar navbar-expand-lg encabezado">
         <div class="container-fluid">
-            <a href="../index.html" class="navbar-brand" href="#">
-                <img class="ligaLogo" src="../img/LOGO 23.png" alt="Logo Liga">
+            <a href="index.html" class="navbar-brand" href="#">
+                <img class="ligaLogo" src="../img/LOGO 23.svg" alt="Logo Liga">
             </a>
             <button class="navbar-toggler estilo-boton" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -53,7 +54,6 @@
             </nav>
         </div>
     </header>
-
     <main>
         <!-- CAROUSEL -->
 
@@ -76,20 +76,80 @@
                 </div>
             </div>
         </div>
-
         <!-- TITULO -->
 
         <div class="tituloHoja mt-3">
-            <h1>FIXTURE</h1>
+            <h1>LIGA LA REINA 2023</h1>
         </div>
 
         <div>
             <h2>PROGRAMACIÓN LIGA</h2>
         </div>
 
-        <div class="container-fluid align-middle mt-3">
-            <div class="table-sm mx-auto text-center">
-                <table class="table table-sm table-hover table-dark table-borderless align-middle">
+        <div class="container py-4 text-center">
+            <table class="table table-primary table-borderless table-sm">
+                <thead>
+                    <tr class="table-primary">
+                        <th>HORA</th>
+                        <th><img class="equipoLogo" src="../img/soccerField.svg" alt=""></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th>SERIE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10:30</td>
+                        <td>2</td>
+                        <td><img class="equipoLogo" src="../img/equipos/climazul.png" alt="Climazul"></td>
+                        <td>CLIMAZUL</td>
+                        <td>VS</td>
+                        <td>MANCHESTER UNIDO</td>
+                        <td><img class="equipoLogo" src="../img/equipos/manchester.png" alt="manchester"></td>
+                        <td>JUNIOR</td>
+                    </tr>
+                    <tr>
+                        <td>10:30</td>
+                        <td>3</td>
+                        <td><img class="equipoLogo" src="../img/equipos/SanNicolas.png" alt="SanNicolas"></td>
+                        <td>SAN NICOLAS FC</td>
+                        <td>VS</td>
+                        <td>MAPUCHES</td>
+                        <td><img class="equipoLogo" src="../img/equipos/MapuchesFC.png" alt="MapuchesFC"></td>
+                        <td>JUNIOR</td>
+                    </tr>
+                    <tr>
+                        <td>12:10</td>
+                        <td>2</td>
+                        <td><img class="equipoLogo" src="../img/equipos/UMarista.png" alt="UMarista"></td>
+                        <td>UNION MARISTA</td>
+                        <td>VS</td>
+                        <td>CLIMAZUL</td>
+                        <td><img class="equipoLogo" src="../img/equipos/UMarista.png" alt="UMarista"></td>
+                        <td>SENIOR</td>
+                    </tr>
+                    <tr>
+                        <td>12:10</td>
+                        <td>3</td>
+                        <td><img class="equipoLogo" src="../img/equipos/SanNicolas.png" alt="SanNicolas"></td>
+                        <td>SAN NICOLAS FC</td>
+                        <td>VS</td>
+                        <td>CHARKAPLAX FC</td>
+                        <td><img class="equipoLogo" src="../img/equipos/charkaplax.png" alt="charkaplax"></td>
+                        <td>SENIOR</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+
+        <!-- <div class="container-fluid align-middle mt-3 bg-primary text-white bg-opacity-75">
+            <div class="table-sm mx-auto text-center table-hover">
+                <table class="table-primary text-white table-sm table-hover table-borderless align-middle">
                     <thead>
                         <tr class="text-center">
                             <th class="tituloTabla" colspan="7">FECHA 1</th>
@@ -206,7 +266,7 @@
                     </tbody>
                 </table>
             </div>
-        </div>
+        </div> -->
 
     </main>
 
@@ -216,9 +276,6 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="../img/hulx.png" class="d-block w-100" alt="hulxpro">
-                </div>
-                <div class="carousel-item">
-                    <img src="../img/PG Medic.png" class="d-block w-100" alt="pgmedic">
                 </div>
                 <div class="carousel-item">
                     <img src="../img/siker.png" class="d-block w-100" alt="siker">
