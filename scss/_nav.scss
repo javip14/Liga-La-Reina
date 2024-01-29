@@ -1,12 +1,11 @@
 /* NAV */
 .fuentesNav {
-    color: $blanco;
-    font-size: 1, 5rem;
+    color: $azul;
+    font-size: 1rem;
     text-transform: uppercase;
     padding-left: 15px;
 }
 
 .fuentesNav a:hover {
-    background-color: $amarillo;
-    color: $azul;
+    background-color: rgb(240, 240, 62, 0.7);
 }

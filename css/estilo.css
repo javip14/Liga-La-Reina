@@ -106,24 +106,38 @@ p {
   /* Centra la imagen dentro de la celda */
 }
 
+.tablaLogo {
+  height: 30px;
+  max-height: 100%;
+  width: auto;
+  display: block;
+  margin: auto;
+}
+
 .equipoMuestra {
   height: 80px;
   align-self: center;
+}
+
+caption {
+  color: #f0f03e;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 /* MIXIN */
 /* FUENTE */
 /* NAV */
 .fuentesNav {
-  color: #ffffff;
-  font-size: 1, 5rem;
+  color: #121266;
+  font-size: 1rem;
   text-transform: uppercase;
   padding-left: 15px;
 }
 
 .fuentesNav a:hover {
-  background-color: #f0f03e;
-  color: #121266;
+  background-color: rgba(240, 240, 62, 0.7);
 }
 
 /* HEADER */
@@ -207,26 +221,23 @@ header {
 }
 
 /* TABLAS */
-/*.container {
-    font-family: $bebas;
-    font-size: 15px;
-}
-
-.container-fluid {
-    font-family: $bebas;
-    font-size: 15px;
-}
-
-.tituloTabla {
-    color: $blanco;
-    font-weight: bold;
-    font-size: 25px;
-    font-family: $antonio;
-}
-*/
 table {
+  margin: 10px;
   font-family: "Roboto", sans-serif;
+  font-size: 1rem;
   font-weight: 500;
+  color: white;
+  background-color: rgba(4, 16, 59, 0.7);
+}
+
+.tablaFixture {
+  margin: 10px;
+  display: block;
+}
+
+.espacioTabla {
+  color: rgba(4, 16, 59, 0.7);
+  background-color: rgba(4, 16, 59, 0.7);
 }
 
 /* FORMULARIO */
