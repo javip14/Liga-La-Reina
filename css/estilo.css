@@ -134,10 +134,38 @@ caption {
   font-size: 1rem;
   text-transform: uppercase;
   padding-left: 15px;
+  background-color: #121266;
 }
 
 .fuentesNav a:hover {
   background-color: rgba(240, 240, 62, 0.7);
+}
+
+.navPosiciones {
+  color: #121266;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding-left: 15px;
+  background-color: #121266;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.navPosiciones a:hover {
+  background-color: rgba(240, 240, 62, 0.7);
+}
+
+.nav-itemPos {
+  margin-right: 30px; /* Ajusta el espacio entre los elementos según tu preferencia */
+  text-align: center;
+}
+
+.tituloPosiciones {
+  background-color: rgba(10, 43, 188, 0.1);
+  text-align: center;
+  align-content: center;
+  text-transform: uppercase;
 }
 
 /* HEADER */
