@@ -249,6 +249,14 @@ header {
   height: 100%;
 }
 
+.cardPosicion {
+  color: #ffffff;
+  text-align: center;
+}
+.cardPosicion img {
+  width: 150px;
+}
+
 /* TABLAS */
 table {
   margin: 10px;
