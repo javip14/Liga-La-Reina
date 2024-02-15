@@ -252,9 +252,23 @@ header {
 .cardPosicion {
   color: #ffffff;
   text-align: center;
+  align-content: center;
 }
 .cardPosicion img {
-  width: 150px;
+  width: 250px;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 /* TABLAS */
