@@ -1,7 +1,7 @@
 /* TABLAS */
 table {
     margin: 10px;
-    font-family:'Roboto', sans-serif;
+    font-family:$antonio;
     font-size: 0,8rem;
     font-weight: 400;
     color: white;
@@ -17,4 +17,11 @@ table {
 .espacioTabla {
     color: rgba(4, 16, 59, 0.7);
     background-color: rgba(4, 16, 59, 0.7);
+}
+
+caption {
+    color: $amarillo;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: $antonio;
 }

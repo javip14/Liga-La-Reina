@@ -60,6 +60,7 @@
     color: $blanco;
     text-align: center;
     align-content: center;
+
     img {
         width: 250px;
     }
@@ -68,7 +69,6 @@
 .rounded-circle {
     border-radius: 50%;
     opacity: 0.9;
-
 }
 
 .cardBody {
@@ -77,4 +77,13 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-  }
+}
+
+.cardPosicion2 {
+    color: $blanco;
+    text-align: center;
+    align-content: center;
+    img {
+        width: 70px;
+    }
+}
